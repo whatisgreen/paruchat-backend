@@ -1,0 +1,93 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    width: 540px;
+    height: 760px;
+    border-radius: 5px;
+    position: absolute;
+    top: 90px;
+    border: 1px solid #E6E6E8;
+}
+
+.logo-div {
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+
+.paru-chat-text {
+    font-size: 25px;
+    color: #5D78FC;
+    position: relative;
+    bottom: 10px;
+    right: 3px;
+}
+
+.input-div {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  position: relative;
+  bottom: 110px; 
+}
+
+.email-input, .pw-input, .name-input, .pw_chk-input {
+    width: 450px;
+    height: 70px;
+    font-size: 14px;
+    margin-top: 60px;
+    border: 0;
+    background: #fff;
+    border: 1px solid #E6E6E8;
+    outline: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 5px;
+}
+
+.email-input:focus, .pw-input:focus, .name-input:focus, .pw_chk-input:focus {
+    border: 2px solid #4285F4;
+}
+
+ .login-btn {
+    margin: auto;
+    width: 450px;
+    height: 55px;
+    position: relative;
+    top: 120px;
+    font-size: 14px;
+    color: #fff;
+    background: #4285F4;
+    border: 0;
+    border-radius: 5px;
+    outline: 0; 
+    cursor: pointer;
+ }
+
+ .sign-text {
+    position: relative;
+    font-size: 14px;
+    text-align: center;
+    top: 230px;
+    cursor: pointer;
+ }
+
+ .sign-text:hover {
+    color: #4285F4;
+ }
+
+ .no_visible, .visible {
+    color: #4285F4;
+    position: absolute;
+    cursor: pointer;
+    font-size: 23px;
+    right: 25px;
+    background: 0;
+    bottom: 90px;
+    z-index: 999;
+ }
